@@ -2,8 +2,16 @@ const account_ID="321098"
 let account_Email="random512@gmail.com"
 var account_password="shakalakaboomboom"
 account_city="Bombay"
+
 let account_state;
 
+/*
+Prefer not to use var
+because of issue in block scope and functional scope
+
+
+scope means {}
+*/
 
 console.log (account_ID) 
 
@@ -22,11 +30,3 @@ console.log (account_ID)
 
 console.table([account_ID,account_Email,account_password,account_state])
 // console.table use for to show many data values in output
-
-/*
-Prefer not to use var
-because of issue in block scope and functional scope
-
-
-scope means {}
-*/
